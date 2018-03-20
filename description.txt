@@ -1,0 +1,73 @@
+Action-RPG inspired loot system that adds 37 new modifiers to your gear!
+Modifiers on non-crafted items are discovered with a scroll of identify sold by the merchant.
++18 weapon modifiers
++10 armor modifiers
++9 accessory modifiers
+Randomized loot quality
+	Magical
++1 unique modifier
+	Rare (25%)
++2 unique modifiers, 1 for accessories
+	Legendary (10%)
++3 unique modifiers, 2 for accessories
+	Primal (1%)
++3 unique modifers for weapons and armor, 2 for accessories 
++PERFECT rolls in each modifier
+Custom modifier effects, for example:
++damage when standing still
++attack speed during night
++damage in jungle
+	damage taken cannot exceed a certain amount
+	ignores damage taken if under an amount
+...and much more!
+
+v1.0.0
+	added 37 modifiers
+v1.0.1
+	fixed armor ignoring modifier not calculating defense
+v1.0.2
+	added multiplayer compatibility
+v1.0.3
+	fixed item rolls reseting when reforged
+v1.1.0
+	non crafted items now spawn as unidentified
+	added scroll of identify
+		bought from the merchant
+		required to discover item's modifiers
+v1.1.1
+	added tome of identify
+		created with 100 scrolls of identify and a tome at a bookcase
+		not consumed when used
+v1.1.2
+	rebalanced some affixes
+	changed scroll and tome sprites
+v1.1.3
+	fixed bug with equipping unidentified armor or accessories
+v1.2.0
+	added added orb of alchemy
+		used to upgrade a single magical item to rare quality
+		crafted with 1 soul of night and 3 cursed flame or ichor
+		drops in hardmode (2%)
+	added essence of favorable fate
+		allows a reroll on a single item
+		crafted with 1 bottled water, 1 ectoplasm, and 1 soul of sight
+		drops post-plantera (1%)
+v1.2.1
+	fixed items not dropping properly and chests not storing items properly in multiplayer
+v1.2.2
+	magic items can now roll chance on hit affixes
+	improved magic reduction scaling on weapons
+	fixed damage in jungle affix not working properly
+v1.2.3
+	fixed items not storing affix values properly in multiplayer
+v1.2.4
+	fixed items sometimes turning to unidentified
+v1.2.5
+	improved RNG system
+v1.2.6
+	increased effectiveness of move speed affix
+v1.2.7
+	fixed minimum immune damage not working as intended
+v1.2.8
+	fixed mining speed not stacking properly
+	made the invulnerability affix not calculate defense
